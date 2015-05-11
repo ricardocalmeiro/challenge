@@ -1,0 +1,12 @@
+
+
+.filter_option{
+	background-color: lightblue;
+	width: 100px;
+	display:inline-block;
+	text-align: center;
+}
+
+.filter_selected{
+	background-color: blue;
+}

@@ -22,15 +22,18 @@ class App < Sinatra::Base
       '/js/libs/jquery-2.1.1.min.js',
       '/js/libs/underscore-min.js',
       '/js/libs/backbone-min.js',
+      '/js/libs/jquery.tablesorter.js',
       '/js/libs/bootstrap.min.js',
       '/jst.js',
       '/js/application.js',
+      '/js/phone.js',
       '/js/backbone/*.js',
       '/js/backbone/*/**.js'
     ]
 
     css :app, '/css/app.css', [
       '/css/bootstrap.min.css',
+      '/css/filter.css',
       '/css/application.css'
     ]
 
